@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400&family=Quicksand:wght@300;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  width: 99, 8%;
+}
+body {
+  font-family: "Advent Pro", sans-serif;
+  line-height: 23px;
+}
+header {
+  align-items: center;
+  padding: 10px 0 10px 0;
+}
+header .imagen {
+  background-color: #b7cae7;
+  text-align: center;
+  padding: 10px 0 10px 0;
+  border-radius: 2px;
+}
+.imagen p,
+h1 {
+  margin: 0;
+}
+
+header img {
+  width: 100px;
+  border-radius: 50%;
+  background-color: #b7cae7;
+}
+
+header button {
+  background-color: #26364d;
+  text-decoration: none;
+  border-radius: 3px;
+  color: #b7cae7;
+  width: 100px;
+  height: auto;
+}
+
+main div h2 {
+  background-color: #26364d;
+  color: #b7cae7;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.informacion li {
+  list-style: none;
+  font-size: 16px;
+}
+
+.experiencia div .cargo {
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.experiencia div .tareas {
+  font-weight: normal;
+}
+
+footer {
+  background-color: #26364d;
+  text-align: center;
+  color: #b7cae7;
+  height: 90px;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+footer i {
+  font-size: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #b7cae7;
+}
